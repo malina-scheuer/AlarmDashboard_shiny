@@ -76,12 +76,12 @@ data$Device <- recode_factor(data$Device,
 
 set_plot_theme <- function(){
   alarm_theme <- theme(
-    text = element_text(size = 16, vjust = 0, family ="Roboto-Bold"),
-    plot.title = element_text(size = 17, face="bold", hjust = 0, family ="Roboto",
+    text = element_text(size = 16, vjust = 0, family ="Helvetica-Bold"),
+    plot.title = element_text(size = 17, face="bold", hjust = 0, family ="Helvetica",
                               margin = margin(b=10)),
     axis.title = element_blank(),
-    axis.text.y = element_text(size=12, family="Roboto"),
-    axis.text.x = element_text(size=12, family="Roboto")
+    axis.text.y = element_text(size=12, family="Helvetica"),
+    axis.text.x = element_text(size=12, family="Helvetica")
   )
   
   theme_set(alarm_theme)
@@ -120,9 +120,9 @@ alarms_overtime <- function(data,start,end,textsize){
     xlab("\nAusgewählte Daten") +
     
     theme(
-      axis.text.x = element_text(size=textsize, family="Roboto"),
-      axis.text.y = element_text(size=textsize, family="Roboto"),
-      axis.title = element_text(size = textsize, vjust = 0, family ="Roboto-Bold"),
+      axis.text.x = element_text(size=textsize, family="Helvetica"),
+      axis.text.y = element_text(size=textsize, family="Helvetica"),
+      axis.title = element_text(size = textsize, vjust = 0, family ="Helvetica-Bold"),
       legend.text = element_text(size=textsize),
       legend.title = element_blank(),
       legend.position = "bottom",
@@ -227,7 +227,7 @@ plot_s_fil <- function(data,device,start,end,colour,textsize){
     geom_text(aes(label = n), color = "white", size = 5, position = position_stack(vjust = 0.5)) +
     
     theme(
-      axis.text.x = element_text(size=textsize, family="Roboto"),
+      axis.text.x = element_text(size=textsize, family="Helvetica"),
       axis.text.y = element_text(size=textsize),
     )
 }
