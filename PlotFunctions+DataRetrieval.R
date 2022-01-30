@@ -160,7 +160,7 @@ plot_d <- function(data,startswith,start,end,colour,textsize){
     scale_y_continuous(limits=c(0, max_axis))+
 
     theme(
-      axis.text.x = element_text(size=textsize, family="Roboto"),
+      axis.text.x = element_text(size=textsize, family="Helvetica"),
       axis.text.y = element_text(size=textsize),
       legend.text = element_text(size=textsize))
 }
