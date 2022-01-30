@@ -193,7 +193,7 @@ plot_ac_fil <- function(data,device,start,end,colour,textsize){
     ylab("Anzahl an Alarmen\n") +
     
   theme(
-    axis.text.x = element_text(size=textsize, family="Roboto"),
+    axis.text.x = element_text(size=textsize, family="Helvetica"),
     axis.text.y = element_text(size=textsize))
 }
 
