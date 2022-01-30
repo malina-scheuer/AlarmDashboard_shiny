@@ -110,13 +110,6 @@ header <- dashboardHeader(title = "ICU Alarm Dashboard")
 # ======== SIDEBAR ==========
 sidebar <- dashboardSidebar(
   sidebarPanel(width = 16, id="sidebar"
-               
-  ,selectInput(
-      inputId = "station",
-      label = "Station:",
-      choices = list("Station A", "Station B"),
-      selected = "Station A"
-  )
   
   ,dateInput(
       inputId = "startdate",
