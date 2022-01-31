@@ -1,8 +1,5 @@
 # ---------- Packages --------------------------------------------------------------------
 
-# for unloading all packages
-#invisible(lapply(paste0('package:', names(sessionInfo()$otherPkgs)), detach, character.only=TRUE, unload=TRUE))
-
 # required packages
 library(dplyr)
 library(stringr)
@@ -36,7 +33,7 @@ Beds_grouped <- data %>%
 # Calculating alarms per bed
 data_days$Alarms_per_bed <- round(data_days$Alarms_total/data_days$Beds_total)
 
-# Calculating alarmfloods
+# Calculating alarm floods
 data$TenMinuteIndex = as.factor(data$TenMinuteIndex)
 
 Alarmfluten <- data %>%

@@ -157,7 +157,7 @@ KPItitle1 <- h4("Gesamtzahl\n")
     ,style = "background-color: #ecf0f5;" #"height:200px;
   )
 
-# ==== KPI Boxes 2 (averagges) ==============
+# ==== KPI Boxes 2 (averages) ==============
 
   KPItitle2 <- h4("Durchschnittswerte\n")
 

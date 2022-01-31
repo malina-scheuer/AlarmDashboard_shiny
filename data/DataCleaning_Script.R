@@ -1,8 +1,5 @@
 # ---------- Packages --------------------------------------------------------------------
 
-# unload all packages
-  #invisible(lapply(paste0('package:', names(sessionInfo()$otherPkgs)), detach, character.only=TRUE, unload=TRUE))
-
 library(lubridate)
 library(dplyr)
 library(tidyr)
