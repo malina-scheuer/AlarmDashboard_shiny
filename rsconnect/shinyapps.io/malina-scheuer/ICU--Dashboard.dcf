@@ -1,0 +1,13 @@
+name: ICU--Dashboard
+title: ICU--Dashboard
+username:
+account: malina-scheuer
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4775526
+bundleId: 5523946
+url: https://malina-scheuer.shinyapps.io/ICU--Dashboard/
+when: 1643561676.92113
+lastSyncTime: 1643561676.92115
+asMultiple: FALSE
+asStatic: FALSE
